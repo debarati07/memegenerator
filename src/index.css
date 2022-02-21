@@ -78,3 +78,20 @@ input {
 .top {
 	top: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+	.container {
+		max-width: 100vw;
+		padding: 0;
+	}
+	.meme--text {
+		font-size: 1.2rem;
+	}
+	input {
+		font-size: 1rem;
+	}
+	.btn {
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+}
